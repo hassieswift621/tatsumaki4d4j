@@ -31,14 +31,14 @@ Replace ``{LATEST_VERSION}`` with the latest version.
 
 **Gradle Setup**
 ```gradle
-implementation 'uk.co.hassieswift621.libraries.discord.tatsumaki4d4j:v2:{LATEST_VERSION}'
+implementation 'uk.co.hassieswift621.libraries.discord.tatsumaki4d4j:tatsumaki4d4j-v2:{LATEST_VERSION}'
 ```
 
 **Maven Setup**
 ```maven
 <dependency>
   <groupId>uk.co.hassieswift621.libraries.discord.tatsumaki4d4j</groupId>
-  <artifactId>v2</artifactId>
+  <artifactId>tatsumaki4d4j-v2</artifactId>
   <version>{LATEST_VERSION}</version>
   <type>pom</type>
 </dependency>
