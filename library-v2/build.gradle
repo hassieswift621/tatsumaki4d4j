@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+}
+
+group 'uk.co.hassieswift621.libraries.discord'
+version '0.1.0'
+
+sourceCompatibility = 1.8
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    implementation 'com.discord4j:Discord4J:2.10.1'
+    implementation 'com.squareup.okhttp3:okhttp:3.11.0'
+    implementation 'org.json:json:20180130'
+    implementation 'uk.co.hassieswift621.libraries:async-threader:2.0.2'
+    implementation 'uk.co.hassieswift621.libraries:json-io:1.2.0'
+}
