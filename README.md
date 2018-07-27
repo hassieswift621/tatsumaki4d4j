@@ -1,8 +1,10 @@
-Tatsumaki4D4J [![CircleCI](https://circleci.com/gh/hassieswift621/tatsumaki4d4j/tree/master.svg?style=svg)](https://circleci.com/gh/hassieswift621/tatsumaki4d4j/tree/master)
+Tatsumaki4D4J [![CircleCI](https://circleci.com/gh/hassieswift621/tatsumaki4d4j/tree/dev.svg?style=svg)](https://circleci.com/gh/hassieswift621/tatsumaki4d4j/tree/dev)
 =================
 
 An asynchronous Java API wrapper around one of the most popular bots on Discord, Tatsumaki; made specifically for projects using Discord4J.
 If you want a pure one without built in Discord4J support, see https://github.com/hassieswift621/tatsumaki4j
+
+Currently, the library supports Discord4J v2. Support for v3 will be coming soon.
 
 The API wrapper has all endpoints currently available or soon to be available implemented: guilds, users and ping.
 
@@ -21,22 +23,22 @@ How do I get an API key
 -----------------------
 To get an API key, run the following command on Tatsumaki: **t!apikey**
 
-Dependencies
+Dependencies - Discord4J v2
 ------------
-This library is available on JCenter<sup>SOON<sup>&trade;</sup></sup>. The latest version is 0.1.0
+This library is available on JCenter<sup>SOON<sup>&trade;</sup></sup>. The latest version is ``0.1.0``.
 
 Replace ``{LATEST_VERSION}`` with the latest version.
 
 **Gradle Setup**
 ```gradle
-implementation 'uk.co.hassieswift621.libraries.discord.tatsumaki4d4j:{LATEST_VERSION}'
+implementation 'uk.co.hassieswift621.libraries.discord.tatsumaki4d4j:v2:{LATEST_VERSION}'
 ```
 
 **Maven Setup**
 ```maven
 <dependency>
-  <groupId>uk.co.hassieswift621.libraries.discord</groupId>
-  <artifactId>tatsumaki4d4j</artifactId>
+  <groupId>uk.co.hassieswift621.libraries.discord.tatsumaki4d4j</groupId>
+  <artifactId>v2</artifactId>
   <version>{LATEST_VERSION}</version>
   <type>pom</type>
 </dependency>
