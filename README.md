@@ -1,4 +1,4 @@
-Tatsumaki4D4J [![CircleCI](https://circleci.com/gh/hassieswift621/tatsumaki4d4j/tree/dev.svg?style=svg)](https://circleci.com/gh/hassieswift621/tatsumaki4d4j/tree/dev)
+Tatsumaki4D4J [![CircleCI](https://circleci.com/gh/hassieswift621/tatsumaki4d4j/tree/dev.svg?style=svg)](https://circleci.com/gh/hassieswift621/tatsumaki4d4j/tree/dev) [ ![Download](https://api.bintray.com/packages/hassieswift621/maven/tatsumaki4d4j-v2/images/download.svg) ](https://bintray.com/hassieswift621/maven/tatsumaki4d4j-v2/_latestVersion) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/a3201cbae39443529dbef24e360b7f28)](https://www.codacy.com/project/hassieswift621/tatsumaki4d4j/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=hassieswift621/tatsumaki4d4j&amp;utm_campaign=Badge_Grade_Dashboard)
 =================
 
 An asynchronous Java API wrapper around one of the most popular bots on Discord, Tatsumaki; made specifically for projects using Discord4J.
